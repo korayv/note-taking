@@ -10,12 +10,15 @@ export default function NotesPage(){
 }
 export async function action({request}){
   const formData = await request.formData();
-    const noteData = Object.fromEntries(formData);
-    // Add validation
+    const noteData = 
+    {//Object.fromEntries(formData);
+        title: formData.get('title'),
+        content: formData.get('content')
+    };
     const existingNotes = await getStoredNotes();
     noteData.id = new Date().toISOString();
     const updatedNotes =existingNotes.concat(noteData);
-    storeNotes(updatedNotes);
+    await storeNotes(updatedNotes);
     return redirect('/notes')
 }
 
