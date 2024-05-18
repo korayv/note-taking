@@ -1,38 +1,64 @@
-# Welcome to Remix!
 
-- [Remix Docs](https://remix.run/docs)
+# Welcome to note-taking app in Remix💿
 
-## Development
+A simple and efficient note-taking application designed to help you organize your thoughts, ideas. This app offers a user-friendly interface, allowing you to create, edit, and manage notes with ease. Ideal for students, professionals, and anyone who wants to keep their notes organized and accessible.
+## Tech Stack
 
-From your terminal:
+**Client:** React, Remix, TailwindCSS
 
-```sh
-npm run dev
+
+## Screenshots
+
+![App Screenshot](https://github.com/korayv/note-taking/tree/master/screenshots/1.png)
+![App Screenshot](https://github.com/korayv/note-taking/tree/master/screenshots/2.png)
+![App Screenshot](https://github.com/korayv/note-taking/tree/master/screenshots/3.png)
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/korayV/note-taking
 ```
 
-This starts your app in development mode, rebuilding assets on file changes.
+Go to the project directory
 
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
+```bash
+  cd note-taking
 ```
 
-Then run the app in production mode:
+Install dependencies
 
-```sh
-npm start
+```bash
+  npm install
 ```
 
-Now you'll need to pick a host to deploy it to.
+Start project on local
 
-### DIY
+```bash
+  npm run start
+```
 
-If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
 
-Make sure to deploy the output of `remix build`
+## Technologies and Skills Utilized
 
-- `build/`
-- `public/build/`
+
+- **Styling Active Links**: Improved navigation experience with clear active link indicators.
+- **Adding Backend Code**: Implemented server-side logic to manage and store notes.
+- **Returning & Using Fetched Data**: Efficiently fetched and displayed data from the backend.
+- **Providing User Feedback**: Enhanced user interaction with meaningful feedback mechanisms.
+- **Validating Input**: Ensured data integrity with comprehensive input validation.
+- **Handling Error Responses**: Managed error handling for a robust and user-friendly experience.
+- **Adding Dynamic Routes**: Created dynamic routes for more flexible and scalable navigation.
+- **Fetching Data for Dynamic Routes**: Implemented data fetching for dynamic routes to display relevant content.
+
+
+## 🚀 About Me
+I'm a full stack developer...
+
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
+
