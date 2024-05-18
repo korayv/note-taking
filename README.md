@@ -9,9 +9,9 @@ A simple and efficient note-taking application designed to help you organize you
 
 ## Screenshots
 
-![App Screenshot](https://github.com/korayv/note-taking/tree/master/screenshots/1.png)
-![App Screenshot](https://github.com/korayv/note-taking/tree/master/screenshots/2.png)
-![App Screenshot](https://github.com/korayv/note-taking/tree/master/screenshots/3.png)
+![App Screenshot](https://github.com/korayv/note-taking/blob/master/screenshots/1.png?raw=true)
+![App Screenshot](https://github.com/korayv/note-taking/blob/master/screenshots/2.png?raw=true)
+![App Screenshot](https://github.com/korayv/note-taking/blob/master/screenshots/2.png?raw=true)
 
 ## Run Locally
 
