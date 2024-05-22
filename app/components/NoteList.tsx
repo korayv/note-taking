@@ -1,5 +1,4 @@
 import { Link } from '@remix-run/react';
-
 import styles from './NoteList.css';
 
 interface Note {

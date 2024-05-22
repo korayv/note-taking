@@ -7,6 +7,9 @@ export async function getStoredNotes() {
   return storedNotes;
 }
 
-export function storeNotes(notes) {
-  return fs.writeFile('notes.json', JSON.stringify({ notes: notes || [] }));
+export async function storeNotes(notes) {
+  const rawFileContent = await fs.readFile('notes.json', { encoding: 'utf-8' });
+  const data = JSON.parse(rawFileContent);
+  data.notes = notes || [];
+  await fs.writeFile('notes.json', JSON.stringify(data));
 }
