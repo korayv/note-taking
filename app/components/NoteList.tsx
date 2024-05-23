@@ -1,5 +1,5 @@
 import { Link } from '@remix-run/react';
-import styles from './NoteList.css';
+import stylesUrl from './NoteList.css';
 
 interface Note {
   id: string;
@@ -47,5 +47,5 @@ function NoteList({ notes }: NoteListProps) {
 export default NoteList;
 
 export function links() {
-  return [{ rel: 'stylesheet', href: styles }];
+  return [{ rel: 'stylesheet', href: stylesUrl }];
 }

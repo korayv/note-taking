@@ -1,8 +1,6 @@
-/** @type {import('@remix-run/dev').AppConfig} */
-export default {
-  ignoredRouteFiles: ["**/*.css"],
-  // appDirectory: "app",
-  // assetsBuildDirectory: "public/build",
-  // publicPath: "/build/",
-  // serverBuildPath: "build/index.js",
+module.exports = {
+  // Other configurations...
+  serverBuildTarget: "node-cjs", // or other build targets
+  postcss: true, // If you use PostCSS
+  cssModules: true, // Enable CSS Modules
 };
